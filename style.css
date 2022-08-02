@@ -45,6 +45,7 @@ form #h1 {
 #info-x {
     margin-top: 1.2em;
     display: flex;
+    justify-content: space-between;
 }
 .rem label{
     font-weight: 700;

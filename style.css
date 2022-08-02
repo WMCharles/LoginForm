@@ -8,11 +8,72 @@ body {
     height: 100vh;
 }
 
-.container div {
+.container > div {
     flex: 50%;
     padding: 4em;
 }
 
 .image {
     background-image: url('./setup.jpg');
+}
+
+/* Login form styling */
+form {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    padding: .5em;
+    font-size: 1.2em;
+}
+
+form #h1 {
+    margin-bottom: 1.5em;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em ;
+}
+
+#info {
+    margin-top: 1em;
+    text-align: center;
+}
+
+#info-x {
+    margin-top: 1em;
+    display: flex;
+}
+.rem label{
+    font-weight: 700;
+    text-align: left;
+}
+
+.input-control input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: none;
+}
+
+.input-control button {
+    padding: 12px;
+    border: none;
+    font-size: .9em;
+    font-weight: 600;
+    color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: black;
+}
+
+#fbook {
+    background-color: blue;
+}
+
+span {
+    margin-left: .3em;
 }

@@ -12,8 +12,7 @@ body {
 }
 
 .container > div {
-    flex: 50%;
-    padding: 4em;
+    width:50%;
 }
 
 .image {
@@ -23,7 +22,7 @@ body {
 
 form {
     width: 80%;
-    margin: auto;
+    margin: 20vh auto 0 auto;
     padding: .5em;
     font-size: 1.2em;
 }
@@ -53,10 +52,18 @@ form #h1 {
 }
 
 .input-control input {
-    padding: 10px;
+    padding: 12px;
     border: none;
     border-bottom: 1px solid black;
-    background-color: none;
+    border-radius: 5px ;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control label {
+    margin-bottom: 1em;
 }
 
 .input-control button {
@@ -78,4 +85,23 @@ form #h1 {
 
 span {
     margin-left: .3em;
+}
+
+@media screen and (max-width: 768px){
+    .container > div {
+        width: 100%;
+    }
+    .image {
+        display: none;
+    }
+    .login {
+        position: relative;
+    }
+    form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
 }

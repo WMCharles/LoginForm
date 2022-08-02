@@ -17,11 +17,10 @@ body {
     background-image: url('./setup.jpg');
 }
 
-/* Login form styling */
+
 form {
-    width: 80%;
-    margin: auto;
-    border: 1px solid black;
+    width: 70%;
+    margin: 8vh auto 0 auto;
     padding: .5em;
     font-size: 1.2em;
 }

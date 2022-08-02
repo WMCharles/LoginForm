@@ -19,10 +19,13 @@ body {
     background-image: url('./setup.jpg');
 }
 
+.login {
+    background-color: #f9f9f9;
+}
 
 form {
     width: 80%;
-    margin: 20vh auto 0 auto;
+    margin: 15vh auto 0 auto;
     padding: .5em;
     font-size: 1.2em;
 }

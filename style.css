@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.container div {
+    flex: 50%;
+    padding: 4em;
+}
+
+.image {
+    background-image: url('./setup.jpg');
+}
